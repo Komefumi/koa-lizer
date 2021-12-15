@@ -1,0 +1,26 @@
+{
+  "name": "koa-lizer",
+  "version": "0.0.1",
+  "description": "A koa.js, typescript, graphql starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Koa.js",
+    "graphql",
+    "starter",
+    "typescript",
+    "node.js"
+  ],
+  "author": "Komefumi <komefumi@protonmail.ch>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komefumi/koa-lizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Komefumi/koa-lizer/issues"
+  },
+  "homepage": "https://github.com/Komefumi/koa-lizer#readme"
+}
