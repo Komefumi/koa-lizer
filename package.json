@@ -4,7 +4,11 @@
   "description": "A koa.js, typescript, graphql starter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "serve": "node --require source-map-support/register lib/index.js",
+    "dev-start": "nodemon --ext ts --exec 'npm run build --incremental && npm run serve'"
+
   },
   "keywords": [
     "Koa.js",
